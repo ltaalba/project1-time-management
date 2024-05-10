@@ -25,7 +25,7 @@ npm install
 To use Project Time Management, follow these steps:
 ```bash
 cd ProjectTimeManagement 
-expo start   
+npx expo start   
 ```
 ## Running the Project
 
