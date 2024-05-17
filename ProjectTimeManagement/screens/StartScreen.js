@@ -8,8 +8,8 @@ const StartScreen = ({ navigation }) => { // Destructure navigation from props
     <View style={StartScreenStyles.container}>
       <Text style={StartScreenStyles.header}>Scroll mindfully</Text>
       <TouchableOpacity style={StartScreenStyles.button}
-              onPress={() => navigation.navigate('HomeScreen')} // Use navigate with the name of the route
-              >
+        onPress={() => navigation.navigate('Main')}
+        >
         <Text style={StartScreenStyles.buttonText}>start</Text>
       </TouchableOpacity>
     </View>
